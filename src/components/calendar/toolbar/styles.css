@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+.calendar-toolbar__month {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.calendar-toolbar__move {
+  margin-right: 1em;
+  cursor: pointer;
+}
+
+.calendar-toolbar__add-new {
+  float: right;
+  cursor: pointer;
+}
+
+.calendar-toolbar__month-name {
+  margin-right: 1em;
+  cursor: pointer;
+  border-style: solid;
+  border-color: aquamarine;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+
+.col-center {
+  font-size: 2em;
+  font-weight: bold;
+  color: #0789e7;
+}
+
+.icon {
+  font-family: 'Material Icons', serif;
+  font-style: normal;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  font-size: 5em;
+  color: #0789e7;
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+}
